@@ -1,0 +1,16 @@
+[package]
+name = "mmp-rs2"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.8"
+clap = { version = "2.33" }
+tokio = { version = "1.12", features = ["full"] }
+hex = "0.4"
+base64 = "0.13"
+
+[dev-dependencies]
+rand = "0.8"
